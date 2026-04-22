@@ -1,16 +1,14 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
+
 Created on Wed Jul  2 11:47:21 2025
-
 @author: marcoascari
-"""
 
-La corrente repository contiene i codici necessari per creare un dataset di funzioni di Wigner per diversi
-stati quantistici Haar random e per allenare diversi modelli di Machine Learning a classificarli in base al loro supporto sulla base di Fock.
-In particolare:
--dataset_wigner_pulito -> crea il dataset originale per allenare i modelli.
--dataset_wigner_noisy_grid -> crea dati rumorosi per testare i modelli ML su punti con Wigner generate da punti rumorosi sullo spazio delle fasi
--dataset_mixed -> crea dati per testare modelli ML introducendo una percentuale di mix dello stato originale con lo stato di vuoto
-- i file NOME_MODELLO_SEARCH -> cercano i migliori iperparametri per il modello in considerazione con alcuni parametri fissati
-- i file TestNomeModelloRumore testano i modelli su Wigner blurred e mixed con il vuoto
+The repository contins all the code I developed for my bachelor thesis.
+It's the framework for the study of image classification about Wigner quasiprobability distrubutions for Fock states superpositions.
+Code organization:
+- dataset_winger_pulito -> creates from scratch the dataset of the Wigner functions as 2D images.
+- dataset_wigner_noisy_grid -> creates noisy(blurred) images to test the robustness of Machine Learning models I used.
+- dataset_mixed -> creates the images of mixed quantum states (original states mixed with vacuum) to simulate Quantum decoherence in first approximation.
+- files Nameofthemodel_SEARCH -> used for hyperparameter optimization (can be improved soon). I used a grid search.
+- files TestNameofthemodelRumore -> test the models on blurred and mixed Wigner functions.
+
+
