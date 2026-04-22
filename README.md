@@ -11,6 +11,6 @@ Code organization:
 - files Nameofthemodel_SEARCH -> used for hyperparameter optimization (can be improved soon). I used a grid search. Training and validation processes are done in this code.
 - files TestNameofthemodelRumore -> test the models on blurred and mixed Wigner functions.
 
-Machine Learning models used: Multilayer Perceptron, 2D convolutional neoural networks, Random Forest
+Machine Learning models used: Multilayer Perceptron, 2D convolutional neural networks, Random Forest
 
 
