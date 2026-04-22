@@ -2,7 +2,7 @@
 Created on Wed Jul  2 11:47:21 2025
 @author: marcoascari
 
-The repository contins all the code I developed for my bachelor thesis.
+The repository contains all the code I developed for my bachelor thesis.
 It's the framework for the study of image classification about Wigner quasiprobability distrubutions for Fock states superpositions.
 Code organization:
 - dataset_winger_pulito -> creates from scratch the dataset of the Wigner functions as 2D images.
